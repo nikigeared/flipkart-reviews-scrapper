@@ -1,13 +1,12 @@
-Step 1: Download the project from the Dashboard
-Step 2: Open your project in Pycharm
-Step 3: Create a new conda envrionment
+Step 1: Open your project in Pycharm
+Step 2: Create a new conda envrionment
         conda create -n reviewscrapper python==3.6.9
                 You can create this conda environment from Anaconda prompt as well as from the pycharm terminal
 
-Step 4: Select the same environment in your pycharm interpreter settings
+Step 3: Select the same environment in your pycharm interpreter settings
         File->Setting->PythonProject->PythonInterpreter
 
-Step 5:  Install all the dependencies from requirements.txt file
+Step 4:  Install all the dependencies from requirements.txt file
         pip install -r requirements.txt
 
 # heroku login
